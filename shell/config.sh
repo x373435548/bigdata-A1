@@ -7,3 +7,6 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89
 sudo apt-get update
 sudo apt-get install sbt
 sudo apt-get install vim-gtk
+
+wget https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
+wget http://apache.mirrors.hoobly.com/hadoop/common/hadoop-2.7.4/hadoop-2.7.4.tar.gz
