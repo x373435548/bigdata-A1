@@ -8,5 +8,9 @@ sudo apt-get update
 sudo apt-get install sbt
 sudo apt-get install vim-gtk
 
-wget https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
-wget http://apache.mirrors.hoobly.com/hadoop/common/hadoop-2.7.4/hadoop-2.7.4.tar.gz
+wget -P ~/ https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
+wget -P ~/ http://apache.mirrors.hoobly.com/hadoop/common/hadoop-2.7.4/hadoop-2.7.4.tar.gz
+
+cd /
+tar zvxf hadoop-2.7.4.tar.gz
+tar zvxf spark-2.2.0-bin-hadoop2.7.tgz
